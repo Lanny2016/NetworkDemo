@@ -21,16 +21,16 @@ public class EarthquakeActivity extends AppCompatActivity {
 //ArrayList<String> earthQuakeArrayList = new ArrayList<String>();
 //earthQuakeArrayList.add ( "Istanbul" );
 // modifying the ArrayList according to the ArrayValues class
-//        ArrayList<ArrayValues> earthQuakeArrayList = new ArrayList<ArrayValues> ();
-//        ArrayValues values = new ArrayValues ( "1", "Istanbul","Feb 5,2019" );
-//        earthQuakeArrayList.add ( values );
-//        // or we can add the values like this below
-//        earthQuakeArrayList.add ( new ArrayValues ( "2.5", "Ankara", "March 7,2019" ) );
-//        earthQuakeArrayList.add ( new ArrayValues ( "3.7", "Izmit", "April 9,2019" ) );
-//        earthQuakeArrayList.add ( new ArrayValues ( "4.5", "Antalya", "May 8,2019" ) );
-//        earthQuakeArrayList.add ( new ArrayValues ( "5.5", "kocaeli", "June 10,2019" ) );
-//        earthQuakeArrayList.add ( new ArrayValues ( "6.9", "Aydin", "July 11,2019" ) );
-        ArrayList<ArrayValues> earthQuakeArrayList = QueryUtils.extractEarthquakes ();
+        ArrayList<ArrayValues> earthQuakeArrayList = new ArrayList<ArrayValues> ();
+        ArrayValues values = new ArrayValues ( "1", "Istanbul","Feb 5,2019" );
+        earthQuakeArrayList.add ( values );
+        // or we can add the values like this below
+        earthQuakeArrayList.add ( new ArrayValues ( "2.5", "Ankara", "March 7,2019" ) );
+        earthQuakeArrayList.add ( new ArrayValues ( "3.7", "Izmit", "April 9,2019" ) );
+        earthQuakeArrayList.add ( new ArrayValues ( "4.5", "Antalya", "May 8,2019" ) );
+        earthQuakeArrayList.add ( new ArrayValues ( "5.5", "kocaeli", "June 10,2019" ) );
+        earthQuakeArrayList.add ( new ArrayValues ( "6.9", "Aydin", "July 11,2019" ) );
+
 // creating an ArrayAdapter to display the list of arrays
 //        ArrayAdapter<String> adapter = new ArrayAdapter<String> ( this,
 //                android.R.layout.simple_expandable_list_item_1, earthQuakeArrayList );
