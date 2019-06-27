@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomAdapter extends ArrayAdapter<ArrayValues> {
-
+// custom adapter
     public CustomAdapter(Context context, ArrayList<ArrayValues> earthQuakeArrayList) {
         super ( context, 0, earthQuakeArrayList );
     }
