@@ -3,7 +3,7 @@ package com.exabarermple.latif.networkdemo;
 import java.util.Date;
 
 public class ArrayValues {
-
+// arrayValues
     private String mMagnitude;
     private String mLocation;
     private String mDate;
